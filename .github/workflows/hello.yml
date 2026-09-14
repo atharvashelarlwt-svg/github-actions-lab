@@ -1,13 +1,12 @@
-name: Hello Github Actions
+name: Hello GitHub Actions
 
 on:
-   push:
+  push:
 
 jobs:
   hello:
-    runs-on: ubntu-slim
+    runs-on: ubuntu-slim
 
     steps:
-      - name: say Hello   
-        run: echo "Hello from github Actions!"
-
+      - name: Say Hello
+        run: echo "Hello from GitHub Actions!"
