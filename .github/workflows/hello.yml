@@ -5,7 +5,7 @@ on:
 
 jobs:
   hello:
-    runs-on: ubntu-latest
+    runs-on: ubntu-slim
 
     steps:
       - name: say Hello   
